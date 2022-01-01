@@ -1,0 +1,12 @@
+{
+    "name": "tivins/ci-example-1.git",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sample\\": "src"
+        }
+    }
+}
